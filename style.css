@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(190, 157, 182);
+}
+
+
+
+
+.box{
+    background-color: pink;
+    width: 50px;
+    height: 50px;
+    border: 1px solid plum;
+}
+
+
+.a,.b,.c,.d,.e,.f,.g,.h,.i,.j{
+    
+    padding: 10px;
+    background-color: rgb(190, 161, 183);
+}
+
+.a{
+    display: flex;
+    justify-content:flex-start;
+     
+}
+.b{
+    display:flex;
+    justify-content:center;
+    
+}
+.c{
+    display: flex;
+    justify-content: end;
+}
+.d{
+    display: flex;
+    justify-content:space-between
+    
+}
+.e{
+    display:flex;
+    justify-content:space-around
+}
+.f{
+    display: flex;
+    justify-content:space-evenly
+}
+.g{
+    display:flex;
+    justify-content:center;
+    
+}
+.h{
+    display:flex;
+   justify-content:space-between;
+   flex-flow: row-reverse;
+}
+.i{
+     display:flex;
+    justify-content:space-around
+}
+.j{
+     display:flex;
+    justify-content:center;
+}
